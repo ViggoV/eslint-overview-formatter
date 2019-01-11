@@ -21,3 +21,11 @@ $ eslint --format ./node_modules/eslint-overview-formatter .
 ```
 
 form the project root should do the trick.
+
+## Show all files
+
+If you want to show all files in the project, errors or not, you can set an environment variable called `OVERVIEW_FORMATTER_SHOW_ALL` to true.
+
+```bash
+$ OVERVIEW_FORMATTER_SHOW_ALL=true eslint --format ./node_modules/eslint-overview-formatter .
+```

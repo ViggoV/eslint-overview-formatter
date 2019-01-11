@@ -5,11 +5,14 @@ const path = require('path');
 module.exports = function(results) {
   results = results || [];
 
+  let show_all = process.env.OVERVIEW_FORMATTER_SHOW_ALL || false;
+
   let nested = {};
   let final = '';
   let root = path.resolve('.');
 
   results.forEach((res) => {
+    if (!show_all && (!res.messages || res.messages.length <= 0)) return;
 
     let relativePath = path.relative(root, res.filePath);
     let splitpath = relativePath.split('/');
