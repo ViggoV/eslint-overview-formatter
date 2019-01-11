@@ -1,6 +1,6 @@
 {
   "name": "eslint-overview-formatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An eslint formatter displaying error and warning count per file",
   "main": "index.js",
   "scripts": {
