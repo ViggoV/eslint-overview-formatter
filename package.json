@@ -8,6 +8,12 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViggoV/eslint-overview-formatter"
+  },
+  "bugs": "https://github.com/ViggoV/eslint-overview-formatter/issues",
+  "homepage": "https://github.com/ViggoV/eslint-overview-formatter#readme",
   "dependencies": {
     "log-symbols": "^2.2.0"
   }
